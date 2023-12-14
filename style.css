@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+}
+
+.part-1 {
+    height: 40vh;
+    background-color: #CCFFFF;
+    padding: 0 136px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.introduction {
+    display: flex;
+    height: 220px;
+}
+
+.img-contain {
+    background-color: #e9d5aa;
+    flex: 1;
+    text-align: center;
+}
+
+.img-about {
+    height: 100%;
+}
+
+.text {
+    flex: 1;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.introduction .text p {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 8px;
+    border-width: 0;
+}
+
+.part-2 {
+    background-color: rgb(88, 88, 88);
+    color: white;
+    text-align: center;
+    height: 52vh;
+}
+
+.text-p2 {
+    font-size: 36px;
+    padding: 36px 0;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.items .item img {
+    width: 100%;
+}
+
+.items .item p {
+    padding-bottom: 12px;
+}
+
+.item {
+    max-width: 200px;
+    border: 2px solid white;
+    border-radius: 16px;
+}
+
+.part-3,
+.part-4 {
+    height: 32vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 600px;
+}
+
+.container p {
+    font-size: 24px;
+}
+
+.container .sign {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: end;
+}
+
+.part-4 {
+    background-color: rgb(156, 143, 143);
+}
+
+.container-p4 {
+    display: flex;
+    background-color: rgb(162, 212, 162);
+    width: 660px;
+    height: 100px;
+    align-items: center;
+    padding: 0 64px;
+    border-radius: 12px;
+}
+
+.text-p4 {
+    flex: 1;
+}
+
+.logo-p4 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.button-p4 {
+    border: 2px solid white;
+}
